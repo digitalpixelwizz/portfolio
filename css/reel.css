@@ -1,0 +1,43 @@
+#reel {
+  padding: var(--pad-top-bot) 0;
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-yellow);
+}
+
+.reelHead {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px dashed rgb(13, 255, 0); */
+}
+
+.reelCon {
+  /* border: 2px dashed rgb(0, 26, 255); */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.demoreel {
+  width: 100%;
+  max-width: 1000px; /* optional cap */
+}
+
+.demoreel iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin: 30px 0 0 0;
+  box-shadow: 1px 1px 19px rgba(0, 0, 0, 0.1);
+}

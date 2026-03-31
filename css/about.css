@@ -1,5 +1,3 @@
-/* ---- About Start ---- */
-
 #about {
   color: var(--main-black);
   height: auto;
@@ -12,15 +10,24 @@
   background-color: var(--main-white);
   overflow: hidden;
   font-family: var(--fontmain);
+  background-color: var(--main-offwhite);
+}
+
+.aboutHead {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-img {
   width: 205px;
   height: 205px;
   border-radius: 50%;
-  background-image: url(https://images.pexels.com/photos/3762863/pexels-photo-3762863.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  background-position: center;
-  background-size: cover;
+  background-image: url("/images/rocket.png");
+  background-position: 51% 60%;
+  background-size: 200%;
   background-repeat: no-repeat;
   border: 10px solid var(--main-black);
   transform: translateX(-200px);
@@ -46,5 +53,3 @@
   transform: translateX(0px);
   opacity: 100%;
 }
-
-/* ---- About End ---- */
