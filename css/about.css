@@ -14,16 +14,37 @@
 }
 
 .aboutHead {
+  /* border: 2px dashed rgb(0, 255, 55); */
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.aboutHead h2 {
+  width: 100%;
+  text-align: center;
+    margin: 0;
+  padding: 0;
+}
+
+.aboutCon {
+  /* border: 2px dashed red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .about-img {
   width: 205px;
   height: 205px;
+  flex-shrink: 0;
   border-radius: 50%;
   background-image: url("/images/rocket.png");
   background-position: 51% 60%;
@@ -33,15 +54,15 @@
   transform: translateX(-200px);
   opacity: 0%;
   transition: transform 1.5s var(--anim-slides), opacity 1.5s var(--anim-slides);
-  margin: 10px 20px 10px 0;
 }
 
 .about-txt {
   width: 500px;
+  max-width: 100%;
+  flex-shrink: 1;
   transform: translateX(200px);
   opacity: 0%;
   transition: transform 1.5s var(--anim-slides), opacity 1.5s var(--anim-slides);
-  margin: 10px 0px 10px 20px;
 }
 
 .about-txt.show {
@@ -52,4 +73,16 @@
 .about-img.show {
   transform: translateX(0px);
   opacity: 100%;
+}
+
+@media (max-width: 800px) {
+  .aboutCon {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-txt {
+    width: 100%;
+    max-width: 500px;
+  }
 }
