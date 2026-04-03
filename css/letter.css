@@ -79,6 +79,7 @@
 
 #sizeSlider {
   transform: translateY(10px);
+  accent-color: var(--main-blue);
 }
 
 #rangeIcons {
