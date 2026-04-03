@@ -47,7 +47,7 @@
 
 .portA {
   /* border: 2px dashed blue; */
-  width: 250px;
+  width: 300px;
   height: 380px;
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@
 }
 
 .portImg.auto {
-  transform: scale(0.19) translateY(1400px);
+  transform: scale(0.3) translateY(0px);
 }
 
 .portImg.tomsart {
