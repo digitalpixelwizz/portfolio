@@ -54,6 +54,10 @@
   align-items: center;
 }
 
+.portImg.behance {
+  transform: scale(0.3) translate(0px, -40px);
+}
+
 .portImg.auto {
   transform: scale(0.19) translateY(1400px);
 }
@@ -62,9 +66,6 @@
   transform: scale(0.18) translateY(470px);
 }
 
-.portImg.chatapp {
-  transform: scale(0.4) translate(275px, 8px);
-}
 
 .gradOverlay {
   position: absolute;
