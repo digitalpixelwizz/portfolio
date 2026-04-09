@@ -90,10 +90,10 @@
 
 /* Programming icons color hovers */
 .lang:hover.psd > svg {
-  fill: #061f34;
+  fill: #004c94;
 }
 .lang:hover.ae > svg {
-  fill: #1e1b57;
+  fill: #36007e;
 }
 .lang:hover.xd > svg {
   fill: #460437;
