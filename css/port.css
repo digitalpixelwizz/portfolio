@@ -45,6 +45,21 @@
   transition-timing-function: ease;
 }
 
+.portItem.be {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 87, 255);
+  box-shadow: 1px 1px 19px rgba(0, 0, 0, 0.1);
+  transition-property: box-shadow, transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
+}
+
 .portA {
   /* border: 2px dashed blue; */
   width: 300px;
@@ -55,7 +70,11 @@
 }
 
 .portImg.behance {
-  transform: scale(0.3) translate(0px, -40px);
+  transform: scale(0.55) translate(0px, 0px);
+  color: white;
+  transition-property: transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
 }
 
 .portImg.auto {
@@ -162,4 +181,11 @@
 .workButtons:hover {
   cursor: pointer;
   background-color: rgba(4, 4, 4, 1);
+}
+
+.portItem:hover .portImg.behance {
+  transform: scale(0.55) translate(0px, -120px);
+  transition-property: transform;
+  transition-duration: 350ms;
+  transition-timing-function: ease;
 }
