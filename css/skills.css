@@ -88,12 +88,15 @@
   transform: translateY(-25px) scale(0.5);
 }
 
-/* Programming icons color hovers */
+
 .lang:hover.psd > svg {
-  fill: #004c94;
+  fill: #00385e;
 }
 .lang:hover.ae > svg {
   fill: #36007e;
+}
+.lang:hover.pr > svg {
+  fill: #1e1b57;
 }
 .lang:hover.xd > svg {
   fill: #460437;
